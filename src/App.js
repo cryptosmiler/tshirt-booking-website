@@ -8,7 +8,7 @@ function App() {
       <img src={logo} className='logo' alt="logo" />
       <img src={mainimg} alt="shirt" />
       <h1 className="text-3xl font-bold underline">
-        hello world
+        hello
       </h1>
     </div>
   );
