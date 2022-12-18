@@ -15,3 +15,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Black";
+  src: local("Black"),
+   url("./assets/fonts/29LT.Zarid.Sans/29LTZaridSans-BlackSlanted.otf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Bold";
+  src: local("Bold"),
+   url("./assets/fonts/29LT.Zarid.Sans/29LTZaridSans-BoldSlanted.otf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Medium";
+  src: local("Medium"),
+   url("./assets/fonts/29LT.Zarid.Sans/29LTZaridSans-MediumSlanted.otf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Light";
+  src: local("Light"),
+   url("./assets/fonts/29LT.Zarid.Sans/29LTZaridSans-LightSlanted.otf") format("truetype");
+  font-weight: bold;
+}
+
+
+.fontBlack {
+  font-family: "Black";
+}
+
+.fontBold {
+  font-family: "Bold";
+}
+
+.fontMedium {
+  font-family: "Medium";
+}
+
+.fontLight {
+  font-family: "Light";
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation: fadein ease-in-out 2s;
+}

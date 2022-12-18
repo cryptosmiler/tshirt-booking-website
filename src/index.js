@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './assets/fonts/29LT.Zarid.Sans/29LTZaridSans-BlackSlanted.otf';
+import './assets/fonts/29LT.Zarid.Sans/29LTZaridSans-BoldSlanted.otf';
+import './assets/fonts/29LT.Zarid.Sans/29LTZaridSans-MediumSlanted.otf';
+import './assets/fonts/29LT.Zarid.Sans/29LTZaridSans-LightSlanted.otf';
+import './assets/fonts/29LT.Zarid.Sans/29LTZaridSans-ThinSlanted.otf';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
